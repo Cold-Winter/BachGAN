@@ -71,5 +71,5 @@ If you use this code for your research, please cite our papers.
 ```
 
 ## Acknowledgments
-Pytorh-fid is from @[mseitzer's implementation](https://github.com/mseitzer/pytorch-fid)
-This code borrows heavily from pix2pixHD and SPADE. We thank Jiayuan Mao for his Synchronized Batch Normalization code.
+Pytorh-fid is from @[mseitzer's implementation](https://github.com/mseitzer/pytorch-fid)<br>
+This code borrows heavily from pix2pixHD and [SPADE](https://github.com/nvlabs/spade/). We thank Jiayuan Mao for his Synchronized Batch Normalization code.
