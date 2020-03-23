@@ -2,6 +2,9 @@
 
 # BachGAN: High-Resolution Image Synthesis from Salient Object Layout
 ![BachGAN demo](./Demo/highlight_new_fixclolor.png)
+### Qualitive Results
+#### Examples of image synthesis results from different models on the ADE20K dataset
+![ade20k](./Demo/example_2.png)
 
 BachGAN: High-Resolution Image Synthesis from Salient Object Layout.<br>
 [Yandong Li](https://cold-winter.github.io/),  [Yu Cheng](https://sites.google.com/site/chengyu05/home),  [Zhe Gan](http://zhegan27.github.io/),  [Licheng Yu](https://www.cs.unc.edu/~licheng/),  [Liqiang Wang](http://www.cs.ucf.edu/~lwang/), and [Jingjing Liu](http://people.csail.mit.edu/jingl/)<br>
