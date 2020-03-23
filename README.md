@@ -2,19 +2,22 @@
 
 # BachGAN: High-Resolution Image Synthesis from Salient Object Layout
 ![BachGAN demo](./Demo/highlight_new_fixclolor.png)
-### Qualitive Results
-#### Examples of image synthesis results from different models on the Cityscapes dataset
-![city](./Demo/example_1.png)
-#### Examples of image synthesis results from different models on the ADE20K dataset
-![ade20k](./Demo/example_2.png)
-#### Examples of generated images by adding bounding boxes sequentially according to previous layout on Cityscapes.
-![city_seq](./Demo/seq_city.png)
-#### Examples of generated images by adding bounding boxes sequentially according to previous layout on ADE20K.
-![city_seq](./Demo/seq_ade20k.png)
 
 BachGAN: High-Resolution Image Synthesis from Salient Object Layout.<br>
 [Yandong Li](https://cold-winter.github.io/),  [Yu Cheng](https://sites.google.com/site/chengyu05/home),  [Zhe Gan](http://zhegan27.github.io/),  [Licheng Yu](https://www.cs.unc.edu/~licheng/),  [Liqiang Wang](http://www.cs.ucf.edu/~lwang/), and [Jingjing Liu](http://people.csail.mit.edu/jingl/)<br>
 In CVPR 2020.
+
+## Qualitive Results
+### Examples of image synthesis results from different models on the Cityscapes dataset
+![city](./Demo/example_1.png)
+### Examples of image synthesis results from different models on the ADE20K dataset
+![ade20k](./Demo/example_2.png)
+### Examples of generated images by adding bounding boxes sequentially according to previous layout on Cityscapes.
+![city_seq](./Demo/seq_city.png)
+### Examples of generated images by adding bounding boxes sequentially according to previous layout on ADE20K.
+![ade_seq](./Demo/seq_ade20k.png)
+
+
 <!--
 ### [Project page](https://nvlabs.github.io/SPADE/) |   [Paper](https://arxiv.org/abs/1903.07291) | [GTC 2019 demo](https://youtu.be/p5U4NgVGAwg) | [Youtube Demo of GauGAN](https://youtu.be/MXWm6w4E5q0)
 
