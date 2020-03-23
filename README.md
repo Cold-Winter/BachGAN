@@ -1,9 +1,12 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/nvlabs/SPADE/master/LICENSE.md)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
-# Semantic Image Synthesis with SPADE
-![GauGAN demo](https://nvlabs.github.io/SPADE//images/ocean.gif)
+# BachGAN: High-Resolution Image Synthesis from Salient Object Layout
+![BachGAN demo](https://nvlabs.github.io/SPADE//images/ocean.gif)
 
+BachGAN: High-Resolution Image Synthesis from Salient Object Layout.<br>
+Yandong Li, Yu Cheng, Zhe Gan, Licheng Yu, Liqiang Wang, Jingjing Liu<br>
+In CVPR 2020.
+<!--
 ### [Project page](https://nvlabs.github.io/SPADE/) |   [Paper](https://arxiv.org/abs/1903.07291) | [GTC 2019 demo](https://youtu.be/p5U4NgVGAwg) | [Youtube Demo of GauGAN](https://youtu.be/MXWm6w4E5q0)
 
 Semantic Image Synthesis with Spatially-Adaptive Normalization.<br>
@@ -44,7 +47,7 @@ To reproduce the results reported in the paper, you would need an NVIDIA DGX1 ma
 
 ## Dataset Preparation
 
-For COCO-Stuff, Cityscapes or ADE20K, the datasets must be downloaded beforehand. Please download them on the respective webpages. In the case of COCO-stuff, we put a few sample images in this code repo.
+For Cityscapes or ADE20K, the datasets must be downloaded beforehand. Please download them on the respective webpages. 
 
 **Preparing COCO-Stuff Dataset**. The dataset can be downloaded [here](https://github.com/nightrome/cocostuff). In particular, you will need to download train2017.zip, val2017.zip, stuffthingmaps_trainval2017.zip, and annotations_trainval2017.zip. The images, labels, and instance maps should be arranged in the same directory structure as in `datasets/coco_stuff/`. In particular, we used an instance map that combines both the boundaries of "things instance map" and "stuff label map". To do this, we used a simple script `datasets/coco_generate_instance_map.py`. Please install `pycocotools` using `pip install pycocotools` and refer to the script to generate instance maps.
 
@@ -120,16 +123,18 @@ This code repo contains many options. Some options belong to only one specific m
 
 To train our model along with an image encoder to enable multi-modal outputs as in Figure 15 of the [paper](https://arxiv.org/pdf/1903.07291.pdf), please use `--use_vae`. The model will create `netE` in addition to `netG` and `netD` and train with KL-Divergence loss.
 
+-->
+
 ### Citation
 If you use this code for your research, please cite our papers.
 ```
-@inproceedings{park2019SPADE,
-  title={Semantic Image Synthesis with Spatially-Adaptive Normalization},
-  author={Park, Taesung and Liu, Ming-Yu and Wang, Ting-Chun and Zhu, Jun-Yan},
+@inproceedings{li2020BachGAN,
+  title={BachGAN: High-Resolution Image Synthesis from Salient Object Layout},
+  author={Li, Yandong and Cheng, Yu and Gan, Zhe and Yu, Licheng and Wang, Liqiangand Liu, Jingjing},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2019}
+  year={2020}
 }
 ```
 
 ## Acknowledgments
-This code borrows heavily from pix2pixHD. We thank Jiayuan Mao for his Synchronized Batch Normalization code.
+This code borrows heavily from pix2pixHD and SPADE. We thank Jiayuan Mao for his Synchronized Batch Normalization code.
