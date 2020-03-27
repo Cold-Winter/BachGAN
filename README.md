@@ -12,9 +12,9 @@ In CVPR 2020.
 ![city](./Demo/example_1.png)
 ### Examples of image synthesis results from different models on the ADE20K dataset
 ![ade20k](./Demo/example_2.png)
-### Examples of generated images by adding bounding boxes sequentially according to previous layout on Cityscapes.
+### Examples of generated images by adding bounding boxes sequentially on Cityscapes.
 ![city_seq](./Demo/seq_city.png)
-### Examples of generated images by adding bounding boxes sequentially according to previous layout on ADE20K.
+### Examples of generated images by adding bounding boxes sequentially on ADE20K.
 ![ade_seq](./Demo/seq_ade20k.png)
 
 
