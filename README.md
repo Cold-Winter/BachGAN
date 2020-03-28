@@ -1,6 +1,6 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
-# BachGAN: High-Resolution Image Synthesis from Salient Object Layout
+# [BachGAN: High-Resolution Image Synthesis from Salient Object Layout](https://arxiv.org/abs/2003.11690)
 ![BachGAN demo](./Demo/highlight_new_fixclolor.png)
 
 BachGAN: High-Resolution Image Synthesis from Salient Object Layout.<br>
