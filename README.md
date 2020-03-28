@@ -1,9 +1,9 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
-# [BachGAN: High-Resolution Image Synthesis from Salient Object Layout](https://arxiv.org/abs/2003.11690)
+# BachGAN: High-Resolution Image Synthesis from Salient Object Layout
 ![BachGAN demo](./Demo/highlight_new_fixclolor.png)
 
-BachGAN: High-Resolution Image Synthesis from Salient Object Layout.<br>
+[BachGAN: High-Resolution Image Synthesis from Salient Object Layout](https://arxiv.org/abs/2003.11690)<br>
 [Yandong Li](https://cold-winter.github.io/),  [Yu Cheng](https://sites.google.com/site/chengyu05/home),  [Zhe Gan](http://zhegan27.github.io/),  [Licheng Yu](https://www.cs.unc.edu/~licheng/),  [Liqiang Wang](http://www.cs.ucf.edu/~lwang/), and [Jingjing Liu](http://people.csail.mit.edu/jingl/)<br>
 In CVPR 2020.
 
