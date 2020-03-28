@@ -75,7 +75,7 @@ If you use this code for your research, please cite our papers.
 ```
 @inproceedings{li2020BachGAN,
   title={BachGAN: High-Resolution Image Synthesis from Salient Object Layout},
-  author={Li, Yandong and Cheng, Yu and Gan, Zhe and Yu, Licheng and Wang, Liqiangand Liu, Jingjing},
+  author={Li, Yandong and Cheng, Yu and Gan, Zhe and Yu, Licheng and Wang, Liqiang and Liu, Jingjing},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year={2020}
 }
