@@ -85,7 +85,13 @@ Evaluate the pretrained model on Cityscapes.
 mv BachGan/city_model/60_net_G.pth ./checkpoints/city_box_retrival_hallucinate/
 python test.py --name city_box_retrival_hallucinate/ --dataset_mode cityscapes --dataroot datasets/cityscapes --retrival_memory --batchSize=10 --gpu_id=0,1 --no_instance --which_epoch=60
 ```
-Evaluate the pretrained model on ADE20K.
+
+Download [ADE20K meta data](https://github.com/CSAILVision/sceneparsing). And put the downloaded folder under `../`
+```
+git clone https://github.com/CSAILVision/sceneparsing
+mv sceneparsing ../
+```
+Evaluate the pretrained model on ADE20K. 
 ```
 mv BachGan/ade_model/150_net_G.pth ./checkpoints/ade_box_retrival_hallucinate/
 python test.py --name ./ade_box_retrival_hallucinate/ --dataset_mode ade20k --dataroot ./datasets/ADEChallengeData2016/ --retrival_memory --batchSize=14 --gpu_id=0,1 --which_epoch=150
