@@ -68,7 +68,11 @@ There are different modes to load images by specifying `--preprocess_mode` along
 -->
 
 ### Usage
-- Code and scripts will be released soon.
+Follow the instructions in [SPADE](https://github.com/nvlabs/spade/) to install the dependencies (PyTorch 1.0, python 3+, Synchronized-BatchNorm-PyTorch, etc.)
+
+Download the [pretrained models and retrieval results](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/liyandong_knights_ucf_edu/EhShfbCwdFJAoenVfw3FcSEBP1qe-RWa05CaCMvJjQ1wgQ?e=fIZf4i)
+
+
 
 ### Citation
 If you use this code for your research, please cite our papers.
