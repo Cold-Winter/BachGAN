@@ -68,9 +68,28 @@ There are different modes to load images by specifying `--preprocess_mode` along
 -->
 
 ### Usage
-Follow the instructions in [SPADE](https://github.com/nvlabs/spade/) to install the dependencies (PyTorch 1.0, python 3+, Synchronized-BatchNorm-PyTorch, etc.)
+Follow the instructions in [SPADE](https://github.com/nvlabs/spade/) to prepare the Cityscapes and ADE20K datasets, and install the dependencies (PyTorch 1.0, python 3+, Synchronized-BatchNorm-PyTorch, etc.)
 
-Download the [pretrained models and retrieval results](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/liyandong_knights_ucf_edu/EhShfbCwdFJAoenVfw3FcSEBP1qe-RWa05CaCMvJjQ1wgQ?e=fIZf4i)
+Download the [pretrained models and retrieval results](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/liyandong_knights_ucf_edu/EhShfbCwdFJAoenVfw3FcSEBP1qe-RWa05CaCMvJjQ1wgQ?e=fIZf4i) and `unzip` the downloaded file (BachGan.zip).
+
+```
+mv BachGan/ade_retrieval/validation.zip datasets/ADEChallengeData2016/retrival_halfset/
+mv BachGan/city_retrieval/retrival_img_pairs_halfset_val_all.pkl scripts/retrival_ious_city_halfset/retrival_img_pairs_halfset_val_all.pkl'
+cd datasets/ADEChallengeData2016/retrival_halfset/
+unzip validation.zip
+```
+If you want to get the retrieval results by yourself, please refer to `scripts/retrival_ious_city_halfset/retrival_seg_halfset.py`
+
+Evaluate the pretrained model on Cityscapes. 
+```
+mv BachGan/city_model/60_net_G.pth ./checkpoints/city_box_retrival_hallucinate/
+python test.py --name city_box_retrival_hallucinate/ --dataset_mode cityscapes --dataroot datasets/cityscapes --retrival_memory --batchSize=10 --gpu_id=0,1 --no_instance --which_epoch=60
+```
+Evaluate the pretrained model on ADE20K.
+```
+mv BachGan/ade_model/150_net_G.pth ./checkpoints/ade_box_retrival_hallucinate/
+python test.py --name ./ade_box_retrival_hallucinate/ --dataset_mode ade20k --dataroot ./datasets/ADEChallengeData2016/ --retrival_memory --batchSize=14 --gpu_id=0,1 --which_epoch=150
+```
 
 
 
