@@ -74,7 +74,7 @@ Download the [pretrained models and retrieval results](https://knightsucfedu3975
 
 ```
 mv BachGan/ade_retrieval/validation.zip datasets/ADEChallengeData2016/retrival_halfset/
-mv BachGan/city_retrieval/retrival_img_pairs_halfset_val_all.pkl scripts/retrival_ious_city_halfset/retrival_img_pairs_halfset_val_all.pkl'
+mv BachGan/city_retrieval/retrival_img_pairs_halfset_val_all.pkl scripts/retrival_ious_city_halfset/retrival_img_pairs_halfset_val_all.pkl
 cd datasets/ADEChallengeData2016/retrival_halfset/
 unzip validation.zip
 ```
