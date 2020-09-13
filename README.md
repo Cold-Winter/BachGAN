@@ -70,7 +70,7 @@ There are different modes to load images by specifying `--preprocess_mode` along
 ### Usage
 Follow the instructions in [SPADE](https://github.com/nvlabs/spade/) to prepare the Cityscapes and ADE20K datasets, and install the dependencies (PyTorch 1.0, python 3+, Synchronized-BatchNorm-PyTorch, etc.)
 
-Download the [pretrained models and retrieval results](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/liyandong_knights_ucf_edu/EhShfbCwdFJAoenVfw3FcSEBP1qe-RWa05CaCMvJjQ1wgQ?e=fIZf4i) and `unzip` the downloaded file (BachGan.zip).
+Download the [pretrained models and retrieval results](https://knightsucfedu39751-my.sharepoint.com/:f:/g/personal/liyandong_knights_ucf_edu/EhShfbCwdFJAoenVfw3FcSEBP1qe-RWa05CaCMvJjQ1wgQ?e=7eDPkl) and `unzip` the downloaded file (BachGan.zip).
 
 ```
 mv BachGan/ade_retrieval/validation.zip datasets/ADEChallengeData2016/retrival_halfset/
